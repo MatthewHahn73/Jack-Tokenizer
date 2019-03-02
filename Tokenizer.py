@@ -16,7 +16,7 @@ def detType(Type): #Returns a string for given integer value
         }.get(Type,'Unknown')
 
 def ReadIn():   #Returns raw read-in data from a given text file
-    File_Data = open("Jack Array Test.txt", "r")
+    File_Data = open("Jack_Test.jack", "r")
     Each_Line = []
     for line in File_Data:
         Each_Line.append(line)
